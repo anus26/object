@@ -40,3 +40,7 @@ button{
     margin-inline: 7px;
     font-size: 20px;
 }
+.card-text{
+    font-size: medium;
+    background-color: silver;
+}
