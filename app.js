@@ -112,13 +112,12 @@ const products = [
 const div =document.querySelector('#products')
 for (let  i = 0; i < products.length; i++) {
     // console.log(products[i]);
-    div.innerHTML +=`<div class="card" style="width: 18rem;">
+    div.innerHTML +=`<div class="card" style="width: 14rem;">
     <div class="card-body">
     <h5 class="card-title">${products[i].name}</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">${products[i].price}</h6>
+      <h6 class="card-subtitle mb- 1text-body-secondary">${products[i].price}</h6>
       <p class="card-text">${products[i].description}</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
+      <button>Detial</button>
     </div>
   
   

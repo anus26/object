@@ -9,11 +9,34 @@ body{
     text-align: center;
     justify-content: center;
 }
-.card{
+#products{
 
-    width: 100px;
-    height: 35px;
+    /* width: 100px; */
+    /* height: 35px; */
     box-sizing:border-box ;
     border-radius: 15px;
+    background: fixed;
+    background-color: rgba(0, 0, 255, 0.096);
+
+
     
+}
+.card-body{
+    background-color: beige;
+    border-radius: 3px;
+}
+.card-title{
+    font-size:large ;
+}
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(255, 0, 0, 0.89);
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-inline: 7px;
+    font-size: 20px;
 }
